@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Hello />
+    <Hello greetings={"Hello" + " REacT NiNJa"}/>
   </React.StrictMode>
 );
 
